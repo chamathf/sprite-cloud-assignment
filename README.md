@@ -62,7 +62,7 @@ Ensure you have the following installed on your system:
 1. **Java JDK 8+**  
 2. **Maven**  
 3. **TestNG**  
-4. **WebDriver** (for UI tests)  
+4. **Allure** (for Reporting)  
 5. **IDE** (IntelliJ IDEA recommended)  
 
 ### Installation Steps

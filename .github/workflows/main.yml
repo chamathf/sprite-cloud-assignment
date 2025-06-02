@@ -21,10 +21,7 @@ jobs:
             ${{ runner.os }}-maven-
 
       - name: Run API Tests
-        run: mvn -Dtest=LoginRelatedTest test
-        run: mvn -Dtest=DelayAPITest test
-        run: mvn -Dtest=NegativeAPITest test
-        run: mvn -Dtest=UserRelatedAPITest test
+        run: mvn -Dtest=LoginRelatedTest,DelayAPITest,NegativeAPITest,UserRelatedAPITest test
         
       
 

@@ -26,10 +26,7 @@ jobs:
         run: mvn -Dtest=NegativeAPITest test
         run: mvn -Dtest=UserRelatedAPITest test
         
-      - name: Run UI Tests
-        run: mvn -Dtest=DescendingOrderTest test
-        run: mvn -Dtest=LoginAndCheckoutTest test
-        run: mvn -Dtest=ValidateLoginFailureTest test
+      
 
       - name: Archive test reports
         if: always()

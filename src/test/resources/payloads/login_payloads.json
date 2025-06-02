@@ -1,0 +1,14 @@
+{
+  "valid_login": {
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
+  },
+
+  "missing_password": {
+    "email": "peter@claven"
+  },
+
+  "registration_missing_password": {
+    "email": "sydney@fife"
+  }
+  }
